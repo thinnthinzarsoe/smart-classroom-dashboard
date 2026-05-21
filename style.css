@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #111;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #0b0b55;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  border-top: 12px solid gray;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #0b0b55;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.GREEN {
+  border-top-color: #2ecc71;
+}
+
+.YELLOW {
+  border-top-color: #f1c40f;
+}
+
+.RED {
+  border-top-color: #e74c3c;
+}

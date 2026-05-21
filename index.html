@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Classroom Noise Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Classroom Noise Dashboard</h1>
+    <p class="subtitle">Live Spark Score Leaderboard</p>
+
+    <div class="cards">
+      <div class="card" id="groupA-card">
+        <h2>Group A</h2>
+        <p>Status: <span id="groupA-status">Loading...</span></p>
+        <p>Score: <span id="groupA-score">0</span></p>
+        <p>Noise Value: <span id="groupA-sound">0</span></p>
+      </div>
+
+      <div class="card" id="groupB-card">
+        <h2>Group B</h2>
+        <p>Status: <span id="groupB-status">Loading...</span></p>
+        <p>Score: <span id="groupB-score">0</span></p>
+        <p>Noise Value: <span id="groupB-sound">0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
